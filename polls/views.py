@@ -1,7 +1,5 @@
-from django.shortcuts import HttpResponse
+from django.http import HttpResponse
 
-
-# Create your views here.
 
 def homepage(request):
-    return HttpResponse("Hello")
+    return HttpResponse("<h1>Hello Django from <span style='color:red'>P10</span></h1>")
